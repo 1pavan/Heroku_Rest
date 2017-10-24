@@ -13,8 +13,38 @@
     <description></description>
 
     <dependencies>
-
+      <dependency>
+            <groupId>com.volantetech.volante.cartridge</groupId>
+            <artifactId>cartridge-RestTest</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.volantetech.volante</groupId>
+            <artifactId>volante-core</artifactId>
+            <version>5.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>jetty</groupId>
+            <artifactId>jetty</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.volantetech.volante</groupId>
+            <artifactId>volante-rest</artifactId>
+            <version>5.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.volantetech.volante</groupId>
+            <artifactId>volante-utils</artifactId>
+            <version>5.2.1</version>
+        </dependency>
+         <dependency>
+            <groupId>com.volantetech.volante</groupId>
+            <artifactId>volante-tasks</artifactId>
+            <version>5.2.1</version>
+        </dependency>
     </dependencies>
+
 
     <profiles>
         <profile>
