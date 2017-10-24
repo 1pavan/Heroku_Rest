@@ -47,6 +47,19 @@
                             <goal>build</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <id>execution2</id>
+                        <phase>runtime</phase>
+                        <configuration>
+                            <rebuild>false</rebuild>
+                            <noDebug>true</noDebug>
+                            <targetDir>./target</targetDir>
+                            <includeDependencies>true</includeDependencies>
+                        </configuration>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
                     <!--  To generate reports
                       <execution>
                           <id>execution2</id>
